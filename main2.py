@@ -6,8 +6,18 @@ from pywinauto import Application, Desktop
 
 app = Application(backend="uia").start(cmd_line=r"C:\Users\User\Downloads\npp.7.9.5.Installer.exe")
 app.window(title_re="Installer")
-selectLang = app.Installer.print_control_identifiers()
-okButton = selectLang
+#app.Installer.print_control_identifiers()
+#selectLang = app.Installer.child_window(title="Installer Language", control_type="Window")
+app.Installer.print_control_identifiers()
+okay = app.Installer.child_window(title="OK", auto_id="1", control_type="Button")
+okay.click_input()
+
+print(app.Installer)
+
+
+
+
+
 
 '''
 dlg = app.Notepad
