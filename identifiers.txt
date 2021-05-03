@@ -1,0 +1,69 @@
+C:\Users\User\PycharmProjects\desktopAppTest\venv\Scripts\python.exe C:/Users/User/PycharmProjects/desktopAppTest/installingNotepad++.py
+0.6.8
+<bound method Application.top_window of <pywinauto.application.Application object at 0x00C8EDB0>>
+Control Identifiers:
+
+Dialog - 'Notepad++ v7.9.5 Setup'    (L584, T226, R1335, B793)
+['Notepad++ v7.9.5 SetupDialog', 'Dialog', 'Notepad++ v7.9.5 Setup']
+child_window(title="Notepad++ v7.9.5 Setup", control_type="Window")
+   |
+   | Button - 'Next >'    (L1073, T740, R1186, B773)
+   | ['Button', 'Next >', 'Next >Button', 'Button0', 'Button1']
+   | child_window(title="Next >", auto_id="1", control_type="Button")
+   |
+   | Button - 'Cancel'    (L1201, T740, R1314, B773)
+   | ['Button2', 'CancelButton', 'Cancel']
+   | child_window(title="Cancel", auto_id="2", control_type="Button")
+   |
+   | Image - ''    (L587, T346, R1350, B348)
+   | ["Software is like sex: It's better when it's freeImage", 'Image', 'Image0', 'Image1', "Software is like sex: It's better when it's freeImage0", "Software is like sex: It's better when it's freeImage1"]
+   | child_window(auto_id="1036", control_type="Image")
+   |
+   | Image - ''    (L587, T721, R1350, B723)
+   | ['Setup will guide you through the installation of Notepad++ v7.9.5.\r\n\r\nIt is recommended that you close all other applications before starting Setup. This will make it possible to update relevant system files without having to reboot your computer.\r\n\r\nClick Next to continue.Image', 'Image2']
+   | child_window(auto_id="1045", control_type="Image")
+   |
+   | Static - 'Software is like sex: It's better when it's free'    (L587, T263, R1334, B346)
+   | ["Software is like sex: It's better when it's freeStatic", 'Static', "Software is like sex: It's better when it's free", 'Static0', 'Static1']
+   | child_window(title="Software is like sex: It's better when it's free", auto_id="1034", control_type="Text")
+   |
+   | Image - ''    (L587, T263, R812, B346)
+   | ["Software is like sex: It's better when it's freeImage2", 'Image3']
+   | child_window(auto_id="1046", control_type="Image")
+   |
+   | Image - ''    (L587, T263, R832, B721)
+   | ["Software is like sex: It's better when it's freeImage3", 'Image4']
+   | child_window(auto_id="1200", control_type="Image")
+   |
+   | Static - 'Welcome to Notepad++ v7.9.5 Setup'    (L857, T287, R1296, B353)
+   | ['Welcome to Notepad++ v7.9.5 Setup', 'Static2', 'Welcome to Notepad++ v7.9.5 SetupStatic']
+   | child_window(title="Welcome to Notepad++ v7.9.5 Setup", auto_id="1201", control_type="Text")
+   |
+   | Static - 'Setup will guide you through the installation of Notepad++ v7.9.5.\r\n\r\nIt is recommended that you close all other applications before starting Setup. This will make it possible to update relevant system files without having to reboot your computer.\r\n\r\nClick Next to continue.'    (L857, T370, R1296, B702)
+   | ['Static3', 'Setup will guide you through the installation of Notepad++ v7.9.5.\r\n\r\nIt is recommended that you close all other applications before starting Setup. This will make it possible to update relevant system files without having to reboot your computer.\r\n\r\nClick Next to continue.', 'Setup will guide you through the installation of Notepad++ v7.9.5.\r\n\r\nIt is recommended that you close all other applications before starting Setup. This will make it possible to update relevant system files without having to reboot your computer.\r\n\r\nClick Next to continue.Static']
+   | child_window(title="Setup will guide you through the installation of Notepad++ v7.9.5.\r\n\r\nIt is recommended that you close all other applications before starting Setup. This will make it possible to update relevant system files without having to reboot your computer.\r\n\r\nClick Next to continue.", auto_id="1202", control_type="Text")
+   |
+   | TitleBar - ''    (L611, T229, R1332, B263)
+   | ['TitleBar']
+   |    |
+   |    | Menu - 'System'    (L595, T237, R628, B270)
+   |    | ['Menu', 'SystemMenu', 'System', 'System0', 'System1']
+   |    | child_window(title="System", auto_id="MenuBar", control_type="MenuBar")
+   |    |    |
+   |    |    | MenuItem - 'System'    (L595, T237, R628, B270)
+   |    |    | ['MenuItem', 'SystemMenuItem', 'System2']
+   |    |    | child_window(title="System", control_type="MenuItem")
+   |    |
+   |    | Button - 'Minimize'    (L1121, T227, R1192, B263)
+   |    | ['MinimizeButton', 'Button3', 'Minimize']
+   |    | child_window(title="Minimize", control_type="Button")
+   |    |
+   |    | Button - 'Maximize'    (L1192, T227, R1262, B263)
+   |    | ['Button4', 'MaximizeButton', 'Maximize']
+   |    | child_window(title="Maximize", control_type="Button")
+   |    |
+   |    | Button - 'Close'    (L1262, T227, R1333, B263)
+   |    | ['Button5', 'CloseButton', 'Close']
+   |    | child_window(title="Close", control_type="Button")
+
+Process finished with exit code 0
