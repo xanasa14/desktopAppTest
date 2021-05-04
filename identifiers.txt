@@ -1,69 +1,770 @@
-C:\Users\User\PycharmProjects\desktopAppTest\venv\Scripts\python.exe C:/Users/User/PycharmProjects/desktopAppTest/installingNotepad++.py
-0.6.8
-<bound method Application.top_window of <pywinauto.application.Application object at 0x00C8EDB0>>
+C:\Users\User\PycharmProjects\desktopAppTest\venv\Scripts\python.exe C:/Users/User/PycharmProjects/desktopAppTest/Pad.py
 Control Identifiers:
 
-Dialog - 'Notepad++ v7.9.5 Setup'    (L584, T226, R1335, B793)
-['Notepad++ v7.9.5 SetupDialog', 'Dialog', 'Notepad++ v7.9.5 Setup']
-child_window(title="Notepad++ v7.9.5 Setup", control_type="Window")
+Dialog - '*Untitled - Notepad'    (L473, T282, R1414, B983)
+['*Untitled - NotepadDialog', '*Untitled - Notepad', 'Dialog', 'Dialog0', 'Dialog1']
+child_window(title="*Untitled - Notepad", control_type="Window")
    |
-   | Button - 'Next >'    (L1073, T740, R1186, B773)
-   | ['Button', 'Next >', 'Next >Button', 'Button0', 'Button1']
-   | child_window(title="Next >", auto_id="1", control_type="Button")
-   |
-   | Button - 'Cancel'    (L1201, T740, R1314, B773)
-   | ['Button2', 'CancelButton', 'Cancel']
-   | child_window(title="Cancel", auto_id="2", control_type="Button")
-   |
-   | Image - ''    (L587, T346, R1350, B348)
-   | ["Software is like sex: It's better when it's freeImage", 'Image', 'Image0', 'Image1', "Software is like sex: It's better when it's freeImage0", "Software is like sex: It's better when it's freeImage1"]
-   | child_window(auto_id="1036", control_type="Image")
-   |
-   | Image - ''    (L587, T721, R1350, B723)
-   | ['Setup will guide you through the installation of Notepad++ v7.9.5.\r\n\r\nIt is recommended that you close all other applications before starting Setup. This will make it possible to update relevant system files without having to reboot your computer.\r\n\r\nClick Next to continue.Image', 'Image2']
-   | child_window(auto_id="1045", control_type="Image")
-   |
-   | Static - 'Software is like sex: It's better when it's free'    (L587, T263, R1334, B346)
-   | ["Software is like sex: It's better when it's freeStatic", 'Static', "Software is like sex: It's better when it's free", 'Static0', 'Static1']
-   | child_window(title="Software is like sex: It's better when it's free", auto_id="1034", control_type="Text")
-   |
-   | Image - ''    (L587, T263, R812, B346)
-   | ["Software is like sex: It's better when it's freeImage2", 'Image3']
-   | child_window(auto_id="1046", control_type="Image")
-   |
-   | Image - ''    (L587, T263, R832, B721)
-   | ["Software is like sex: It's better when it's freeImage3", 'Image4']
-   | child_window(auto_id="1200", control_type="Image")
-   |
-   | Static - 'Welcome to Notepad++ v7.9.5 Setup'    (L857, T287, R1296, B353)
-   | ['Welcome to Notepad++ v7.9.5 Setup', 'Static2', 'Welcome to Notepad++ v7.9.5 SetupStatic']
-   | child_window(title="Welcome to Notepad++ v7.9.5 Setup", auto_id="1201", control_type="Text")
-   |
-   | Static - 'Setup will guide you through the installation of Notepad++ v7.9.5.\r\n\r\nIt is recommended that you close all other applications before starting Setup. This will make it possible to update relevant system files without having to reboot your computer.\r\n\r\nClick Next to continue.'    (L857, T370, R1296, B702)
-   | ['Static3', 'Setup will guide you through the installation of Notepad++ v7.9.5.\r\n\r\nIt is recommended that you close all other applications before starting Setup. This will make it possible to update relevant system files without having to reboot your computer.\r\n\r\nClick Next to continue.', 'Setup will guide you through the installation of Notepad++ v7.9.5.\r\n\r\nIt is recommended that you close all other applications before starting Setup. This will make it possible to update relevant system files without having to reboot your computer.\r\n\r\nClick Next to continue.Static']
-   | child_window(title="Setup will guide you through the installation of Notepad++ v7.9.5.\r\n\r\nIt is recommended that you close all other applications before starting Setup. This will make it possible to update relevant system files without having to reboot your computer.\r\n\r\nClick Next to continue.", auto_id="1202", control_type="Text")
-   |
-   | TitleBar - ''    (L611, T229, R1332, B263)
-   | ['TitleBar']
+   | Dialog - 'Save As'    (L485, T176, R1445, B896)
+   | ['Dialog2', 'Save As', 'Save AsDialog']
+   | child_window(title="Save As", control_type="Window")
    |    |
-   |    | Menu - 'System'    (L595, T237, R628, B270)
-   |    | ['Menu', 'SystemMenu', 'System', 'System0', 'System1']
+   |    | Dialog - 'Confirm Save As'    (L674, T356, R1223, B573)
+   |    | ['Confirm Save AsDialog', 'Confirm Save As', 'Dialog3']
+   |    | child_window(title="Confirm Save As", control_type="Window")
+   |    |    |
+   |    |    | Image - 'MainInstructionIcon'    (L700, T416, R748, B464)
+   |    |    | ['MainInstructionIcon', 'Image', 'MainInstructionIconImage', 'Image0', 'Image1']
+   |    |    | child_window(title="MainInstructionIcon", auto_id="MainIcon", control_type="Image")
+   |    |    |
+   |    |    | Static - 'temp123.txt already exists.\r\nDo you want to replace it?'    (L763, T424, R1197, B474)
+   |    |    | ['Static', 'temp123.txt already exists.\r\nDo you want to replace it?Static', 'temp123.txt already exists.\r\nDo you want to replace it?', 'Static0', 'Static1']
+   |    |    | child_window(title="temp123.txt already exists.\r\nDo you want to replace it?", auto_id="ContentText", control_type="Text")
+   |    |    |
+   |    |    | Button - 'Yes'    (L978, T511, R1083, B548)
+   |    |    | ['Yes', 'YesButton', 'Button', 'Button0', 'Button1']
+   |    |    | child_window(title="Yes", auto_id="CommandButton_6", control_type="Button")
+   |    |    |
+   |    |    | Button - 'No'    (L1092, T511, R1197, B548)
+   |    |    | ['NoButton', 'No', 'Button2']
+   |    |    | child_window(title="No", auto_id="CommandButton_7", control_type="Button")
+   |    |    |
+   |    |    | TitleBar - ''    (L685, T359, R1212, B401)
+   |    |    | ['TitleBar', 'TitleBar0', 'TitleBar1']
+   |    |
+   |    | Pane - ''    (L496, T280, R1434, B794)
+   |    | ['temp123.txt already exists.\r\nDo you want to replace it?Pane', 'Pane', 'Pane0', 'Pane1']
+   |    |    |
+   |    |    | Toolbar - 'Command Module'    (L496, T280, R1434, B329)
+   |    |    | ['Command ModuleToolbar', 'Command Module', 'Toolbar', 'Toolbar0', 'Toolbar1']
+   |    |    | child_window(title="Command Module", auto_id="FolderBandModuleInner", control_type="ToolBar")
+   |    |    |    |
+   |    |    |    | Button - '&Help'    (L1378, T283, R1420, B324)
+   |    |    |    | ['&Help', '&HelpButton', 'Button3']
+   |    |    |    | child_window(title="&Help", auto_id="HelpButton", control_type="Button")
+   |    |    |    |
+   |    |    |    | SplitButton - 'Views'    (L1289, T283, R1366, B324)
+   |    |    |    | ['SplitButton', 'Views', 'ViewsSplitButton', 'SplitButton0', 'SplitButton1']
+   |    |    |    | child_window(title="Views", auto_id="ViewControl", control_type="SplitButton")
+   |    |    |    |    |
+   |    |    |    |    | Button - 'View Slider'    (L1330, T283, R1351, B324)
+   |    |    |    |    | ['View Slider', 'View SliderButton', 'Button4']
+   |    |    |    |    | child_window(title="View Slider", auto_id="SplitMenuButton", control_type="Button")
+   |    |    |    |
+   |    |    |    | Button - 'Organize'    (L501, T283, R633, B324)
+   |    |    |    | ['Organize', 'OrganizeButton', 'Button5']
+   |    |    |    | child_window(title="Organize", auto_id="{7DDC1264-7E4D-4F74-BBC0-D191987C8D0F}", control_type="Button")
+   |    |    |    |
+   |    |    |    | Button - 'New folder'    (L633, T283, R766, B324)
+   |    |    |    | ['New folderButton', 'New folder', 'Button6']
+   |    |    |    | child_window(title="New folder", auto_id="{E44616AD-6DF1-4B94-85A4-E465AE8A19DB}", control_type="Button")
+   |    |    |
+   |    |    | Pane - 'Control Host'    (L496, T329, R730, B696)
+   |    |    | ['Control Host', 'Pane2', 'Control HostPane']
+   |    |    | child_window(title="Control Host", auto_id="ProperTreeHost", control_type="Pane")
+   |    |    |    |
+   |    |    |    | TreeView - 'Tree View'    (L496, T329, R730, B696)
+   |    |    |    | ['TreeView', 'Tree View', 'Tree ViewTreeView', 'TreeView0', 'TreeView1']
+   |    |    |    | child_window(title="Tree View", auto_id="100", control_type="Tree")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - 'Vertical'    (L704, T329, R730, B696)
+   |    |    |    |    | ['ScrollBar', 'VerticalScrollBar', 'Vertical', 'ScrollBar0', 'ScrollBar1', 'VerticalScrollBar0', 'VerticalScrollBar1', 'Vertical0', 'Vertical1']
+   |    |    |    |    | child_window(title="Vertical", auto_id="NonClientVerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Line up'    (L704, T329, R730, B355)
+   |    |    |    |    |    | ['Line upButton', 'Line up', 'Button7', 'Line upButton0', 'Line upButton1', 'Line up0', 'Line up1']
+   |    |    |    |    |    | child_window(title="Line up", auto_id="UpButton", control_type="Button")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Page up'    (L704, T355, R730, B506)
+   |    |    |    |    |    | ['Page up', 'Page upButton', 'Button8']
+   |    |    |    |    |    | child_window(title="Page up", auto_id="UpPageButton", control_type="Button")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Thumb - 'Position'    (L704, T506, R730, B642)
+   |    |    |    |    |    | ['Thumb', 'PositionThumb', 'Position', 'Thumb0', 'Thumb1', 'PositionThumb0', 'PositionThumb1', 'Position0', 'Position1']
+   |    |    |    |    |    | child_window(title="Position", auto_id="ScrollbarThumb", control_type="Thumb")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Page down'    (L704, T642, R730, B670)
+   |    |    |    |    |    | ['Page down', 'Page downButton', 'Button9', 'Page down0', 'Page down1', 'Page downButton0', 'Page downButton1']
+   |    |    |    |    |    | child_window(title="Page down", auto_id="DownPageButton", control_type="Button")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Line down'    (L704, T670, R730, B696)
+   |    |    |    |    |    | ['Button10', 'Line down', 'Line downButton', 'Line down0', 'Line down1', 'Line downButton0', 'Line downButton1']
+   |    |    |    |    |    | child_window(title="Line down", auto_id="DownButton", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | TreeItem - 'Quick access'    (L0, T0, R0, B0)
+   |    |    |    |    | ['Quick accessTreeItem', 'Quick access', 'TreeItem', 'TreeItem0', 'TreeItem1']
+   |    |    |    |    | child_window(title="Quick access", control_type="TreeItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | TreeItem - 'Desktop (pinned)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Desktop (pinned)TreeItem', 'Desktop (pinned)', 'TreeItem2']
+   |    |    |    |    |    | child_window(title="Desktop (pinned)", control_type="TreeItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | TreeItem - 'Downloads (pinned)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Downloads (pinned)TreeItem', 'Downloads (pinned)', 'TreeItem3']
+   |    |    |    |    |    | child_window(title="Downloads (pinned)", control_type="TreeItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | TreeItem - 'Documents (pinned)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Documents (pinned)', 'TreeItem4', 'Documents (pinned)TreeItem']
+   |    |    |    |    |    | child_window(title="Documents (pinned)", control_type="TreeItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | TreeItem - 'Pictures (pinned)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Pictures (pinned)', 'TreeItem5', 'Pictures (pinned)TreeItem']
+   |    |    |    |    |    | child_window(title="Pictures (pinned)", control_type="TreeItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | TreeItem - 'commentsClassification'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['commentsClassification', 'TreeItem6', 'commentsClassificationTreeItem']
+   |    |    |    |    |    | child_window(title="commentsClassification", control_type="TreeItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | TreeItem - 'filesToAnalyze'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['filesToAnalyze', 'TreeItem7', 'filesToAnalyzeTreeItem', 'filesToAnalyze0', 'filesToAnalyze1']
+   |    |    |    |    |    | child_window(title="filesToAnalyze", control_type="TreeItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | TreeItem - 'Local Disk (D:)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Local Disk (D:)', 'Local Disk (D:)TreeItem', 'TreeItem8', 'Local Disk (D:)0', 'Local Disk (D:)1', 'Local Disk (D:)TreeItem0', 'Local Disk (D:)TreeItem1']
+   |    |    |    |    |    | child_window(title="Local Disk (D:)", control_type="TreeItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | TreeItem - 'Program Files'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Program Files', 'Program FilesTreeItem', 'TreeItem9']
+   |    |    |    |    |    | child_window(title="Program Files", control_type="TreeItem")
+   |    |    |    |    |
+   |    |    |    |    | TreeItem - 'Desktop'    (L0, T0, R0, B0)
+   |    |    |    |    | ['Desktop', 'TreeItem10', 'DesktopTreeItem', 'Desktop0', 'Desktop1', 'DesktopTreeItem0', 'DesktopTreeItem1']
+   |    |    |    |    | child_window(title="Desktop", control_type="TreeItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | TreeItem - 'OneDrive'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['OneDrive', 'OneDriveTreeItem', 'TreeItem11']
+   |    |    |    |    |    | child_window(title="OneDrive", control_type="TreeItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | TreeItem - 'This PC'    (L559, T341, R620, B377)
+   |    |    |    |    |    | ['This PCTreeItem', 'TreeItem12', 'This PC', 'This PC0', 'This PC1']
+   |    |    |    |    |    | child_window(title="This PC", control_type="TreeItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | TreeItem - '3D Objects'    (L571, T377, R663, B413)
+   |    |    |    |    |    |    | ['3D ObjectsTreeItem', '3D Objects', 'TreeItem13']
+   |    |    |    |    |    |    | child_window(title="3D Objects", control_type="TreeItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | TreeItem - 'Desktop'    (L571, T413, R642, B449)
+   |    |    |    |    |    |    | ['Desktop2', 'TreeItem14', 'DesktopTreeItem2']
+   |    |    |    |    |    |    | child_window(title="Desktop", control_type="TreeItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | TreeItem - 'Documents'    (L571, T449, R666, B485)
+   |    |    |    |    |    |    | ['DocumentsTreeItem', 'TreeItem15', 'Documents', 'Documents0', 'Documents1']
+   |    |    |    |    |    |    | child_window(title="Documents", control_type="TreeItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | TreeItem - 'Downloads'    (L571, T485, R665, B521)
+   |    |    |    |    |    |    | ['Downloads', 'TreeItem16', 'DownloadsTreeItem', 'Downloads0', 'Downloads1']
+   |    |    |    |    |    |    | child_window(title="Downloads", control_type="TreeItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | TreeItem - 'Music'    (L571, T521, R621, B557)
+   |    |    |    |    |    |    | ['Music', 'TreeItem17', 'MusicTreeItem']
+   |    |    |    |    |    |    | child_window(title="Music", control_type="TreeItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | TreeItem - 'Pictures'    (L571, T557, R636, B593)
+   |    |    |    |    |    |    | ['PicturesTreeItem', 'TreeItem18', 'Pictures']
+   |    |    |    |    |    |    | child_window(title="Pictures", control_type="TreeItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | TreeItem - 'Videos'    (L571, T593, R629, B629)
+   |    |    |    |    |    |    | ['Videos', 'VideosTreeItem', 'TreeItem19']
+   |    |    |    |    |    |    | child_window(title="Videos", control_type="TreeItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | TreeItem - 'Local Disk (C:)'    (L571, T629, R684, B665)
+   |    |    |    |    |    |    | ['Local Disk (C:)TreeItem', 'Local Disk (C:)', 'TreeItem20']
+   |    |    |    |    |    |    | child_window(title="Local Disk (C:)", control_type="TreeItem")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | TreeItem - 'Local Disk (D:)'    (L571, T665, R686, B696)
+   |    |    |    |    |    |    | ['Local Disk (D:)2', 'Local Disk (D:)TreeItem2', 'TreeItem21']
+   |    |    |    |    |    |    | child_window(title="Local Disk (D:)", control_type="TreeItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | TreeItem - 'Network'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['NetworkTreeItem', 'TreeItem22', 'Network']
+   |    |    |    |    |    | child_window(title="Network", control_type="TreeItem")
+   |    |    |
+   |    |    | Pane - 'Shell Folder View'    (L736, T329, R1434, B696)
+   |    |    | ['Pane3', 'Shell Folder ViewPane', 'Shell Folder View']
+   |    |    | child_window(title="Shell Folder View", auto_id="listview", control_type="Pane")
+   |    |    |    |
+   |    |    |    | ListBox - 'Items View'    (L736, T329, R1434, B696)
+   |    |    |    | ['Items ViewListBox', 'ListBox', 'Items View']
+   |    |    |    | child_window(title="Items View", control_type="List")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - 'Horizontal Scroll Bar'    (L736, T670, R1408, B696)
+   |    |    |    |    | ['ScrollBar2', 'Horizontal Scroll Bar', 'Horizontal Scroll BarScrollBar']
+   |    |    |    |    | child_window(title="Horizontal Scroll Bar", auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Column left'    (L736, T670, R762, B696)
+   |    |    |    |    |    | ['Button11', 'Column left', 'Column leftButton', 'Column left0', 'Column left1', 'Column leftButton0', 'Column leftButton1']
+   |    |    |    |    |    | child_window(title="Column left", auto_id="UpButton", control_type="Button")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Thumb - 'Position'    (L762, T670, R1206, B696)
+   |    |    |    |    |    | ['Thumb2', 'PositionThumb2', 'Position2']
+   |    |    |    |    |    | child_window(title="Position", auto_id="ScrollbarThumb", control_type="Thumb")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Page right'    (L1206, T670, R1382, B696)
+   |    |    |    |    |    | ['Page rightButton', 'Page right', 'Button12']
+   |    |    |    |    |    | child_window(title="Page right", auto_id="DownPageButton", control_type="Button")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Column right'    (L1382, T670, R1408, B696)
+   |    |    |    |    |    | ['Column rightButton', 'Column right', 'Button13', 'Column rightButton0', 'Column rightButton1', 'Column right0', 'Column right1']
+   |    |    |    |    |    | child_window(title="Column right", auto_id="DownButton", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - 'Vertical Scroll Bar'    (L1408, T329, R1434, B670)
+   |    |    |    |    | ['ScrollBar3', 'Vertical Scroll BarScrollBar', 'Vertical Scroll Bar']
+   |    |    |    |    | child_window(title="Vertical Scroll Bar", auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Line up'    (L1408, T329, R1434, B355)
+   |    |    |    |    |    | ['Line upButton2', 'Line up2', 'Button14']
+   |    |    |    |    |    | child_window(title="Line up", auto_id="UpButton", control_type="Button")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Thumb - 'Position'    (L1408, T355, R1434, B593)
+   |    |    |    |    |    | ['Thumb3', 'PositionThumb3', 'Position3']
+   |    |    |    |    |    | child_window(title="Position", auto_id="ScrollbarThumb", control_type="Thumb")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Page down'    (L1408, T593, R1434, B644)
+   |    |    |    |    |    | ['Page down2', 'Page downButton2', 'Button15']
+   |    |    |    |    |    | child_window(title="Page down", auto_id="DownPageButton", control_type="Button")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Line down'    (L1408, T644, R1434, B670)
+   |    |    |    |    |    | ['Button16', 'Line down2', 'Line downButton2']
+   |    |    |    |    |    | child_window(title="Line down", auto_id="DownButton", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | Header - 'Header'    (L736, T329, R1675, B370)
+   |    |    |    |    | ['HeaderHeader', 'Header']
+   |    |    |    |    | child_window(title="Header", control_type="Header")
+   |    |    |    |    |    |
+   |    |    |    |    |    | SplitButton - 'Name'    (L736, T329, R1144, B370)
+   |    |    |    |    |    | ['NameSplitButton', 'Name', 'SplitButton2']
+   |    |    |    |    |    | child_window(title="Name", auto_id="System.ItemNameDisplay", control_type="SplitButton")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Button - 'Filter dropdown'    (L1119, T329, R1142, B370)
+   |    |    |    |    |    |    | ['Filter dropdownButton', 'Filter dropdown', 'Button17', 'Filter dropdownButton0', 'Filter dropdownButton1', 'Filter dropdown0', 'Filter dropdown1']
+   |    |    |    |    |    |    | child_window(title="Filter dropdown", auto_id="DropDown", control_type="Button")
+   |    |    |    |    |    |
+   |    |    |    |    |    | SplitButton - 'Date modified'    (L1144, T329, R1360, B370)
+   |    |    |    |    |    | ['SplitButton3', 'Date modified', 'Date modifiedSplitButton']
+   |    |    |    |    |    | child_window(title="Date modified", auto_id="System.DateModified", control_type="SplitButton")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Button - 'Filter dropdown'    (L1335, T329, R1358, B370)
+   |    |    |    |    |    |    | ['Filter dropdownButton2', 'Filter dropdown2', 'Button18']
+   |    |    |    |    |    |    | child_window(title="Filter dropdown", auto_id="DropDown", control_type="Button")
+   |    |    |    |    |    |
+   |    |    |    |    |    | SplitButton - 'Type'    (L1360, T329, R1540, B370)
+   |    |    |    |    |    | ['Type', 'SplitButton4', 'TypeSplitButton']
+   |    |    |    |    |    | child_window(title="Type", auto_id="System.ItemTypeText", control_type="SplitButton")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Button - 'Filter dropdown'    (L1515, T329, R1538, B370)
+   |    |    |    |    |    |    | ['Filter dropdownButton3', 'Filter dropdown3', 'Button19']
+   |    |    |    |    |    |    | child_window(title="Filter dropdown", auto_id="DropDown", control_type="Button")
+   |    |    |    |    |    |
+   |    |    |    |    |    | SplitButton - 'Size'    (L1540, T329, R1660, B370)
+   |    |    |    |    |    | ['SplitButton5', 'SizeSplitButton', 'Size']
+   |    |    |    |    |    | child_window(title="Size", auto_id="System.Size", control_type="SplitButton")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Button - 'Filter dropdown'    (L1635, T329, R1658, B370)
+   |    |    |    |    |    |    | ['Filter dropdownButton4', 'Filter dropdown4', 'Button20']
+   |    |    |    |    |    |    | child_window(title="Filter dropdown", auto_id="DropDown", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | ListItem - '.ipynb_checkpoints'    (L757, T379, R1654, B412)
+   |    |    |    |    | ['.ipynb_checkpointsListItem', '.ipynb_checkpoints', 'ListItem', 'ListItem0', 'ListItem1']
+   |    |    |    |    | child_window(title=".ipynb_checkpoints", auto_id="0", control_type="ListItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Image - ''    (L763, T379, R790, B412)
+   |    |    |    |    |    | ['Image2']
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Name'    (L790, T379, R1144, B412)
+   |    |    |    |    |    | ['Edit', 'Edit0', 'Edit1']
+   |    |    |    |    |    | child_window(title="Name", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Date modified'    (L1144, T379, R1360, B412)
+   |    |    |    |    |    | ['Edit2']
+   |    |    |    |    |    | child_window(title="Date modified", auto_id="System.DateModified", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Type'    (L1360, T379, R1540, B412)
+   |    |    |    |    |    | ['Edit3']
+   |    |    |    |    |    | child_window(title="Type", auto_id="System.ItemTypeText", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Size'    (L1540, T379, R1660, B412)
+   |    |    |    |    |    | ['Edit4']
+   |    |    |    |    |    | child_window(title="Size", auto_id="System.Size", control_type="Edit")
+   |    |    |    |    |
+   |    |    |    |    | ListItem - 'Add-in Express'    (L757, T411, R1654, B444)
+   |    |    |    |    | ['Add-in ExpressListItem', 'Add-in Express', 'ListItem2']
+   |    |    |    |    | child_window(title="Add-in Express", auto_id="1", control_type="ListItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Image - ''    (L763, T411, R790, B444)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Image', 'Image3', 'temp123.txt already exists.\r\nDo you want to replace it?Image0', 'temp123.txt already exists.\r\nDo you want to replace it?Image1']
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Name'    (L790, T411, R1144, B444)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit', 'Edit5', 'temp123.txt already exists.\r\nDo you want to replace it?Edit0', 'temp123.txt already exists.\r\nDo you want to replace it?Edit1']
+   |    |    |    |    |    | child_window(title="Name", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Date modified'    (L1144, T411, R1360, B444)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit2', 'Edit6']
+   |    |    |    |    |    | child_window(title="Date modified", auto_id="System.DateModified", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Type'    (L1360, T411, R1540, B444)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit3', 'Edit7']
+   |    |    |    |    |    | child_window(title="Type", auto_id="System.ItemTypeText", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Size'    (L1540, T411, R1660, B444)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit4', 'Edit8']
+   |    |    |    |    |    | child_window(title="Size", auto_id="System.Size", control_type="Edit")
+   |    |    |    |    |
+   |    |    |    |    | ListItem - 'Custom Office Templates'    (L757, T443, R1654, B476)
+   |    |    |    |    | ['Custom Office Templates', 'Custom Office TemplatesListItem', 'ListItem3']
+   |    |    |    |    | child_window(title="Custom Office Templates", auto_id="2", control_type="ListItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Image - ''    (L763, T443, R790, B476)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Image2', 'Image4']
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Name'    (L790, T443, R1144, B476)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit5', 'Edit9']
+   |    |    |    |    |    | child_window(title="Name", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Date modified'    (L1144, T443, R1360, B476)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit6', 'Edit10']
+   |    |    |    |    |    | child_window(title="Date modified", auto_id="System.DateModified", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Type'    (L1360, T443, R1540, B476)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit7', 'Edit11']
+   |    |    |    |    |    | child_window(title="Type", auto_id="System.ItemTypeText", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Size'    (L1540, T443, R1660, B476)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit8', 'Edit12']
+   |    |    |    |    |    | child_window(title="Size", auto_id="System.Size", control_type="Edit")
+   |    |    |    |    |
+   |    |    |    |    | ListItem - 'Downloads'    (L757, T475, R1654, B508)
+   |    |    |    |    | ['Downloads2', 'DownloadsListItem', 'ListItem4']
+   |    |    |    |    | child_window(title="Downloads", auto_id="3", control_type="ListItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Image - ''    (L763, T475, R790, B508)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Image3', 'Image5']
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Name'    (L790, T475, R1144, B508)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit9', 'Edit13']
+   |    |    |    |    |    | child_window(title="Name", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Date modified'    (L1144, T475, R1360, B508)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit10', 'Edit14']
+   |    |    |    |    |    | child_window(title="Date modified", auto_id="System.DateModified", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Type'    (L1360, T475, R1540, B508)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit11', 'Edit15']
+   |    |    |    |    |    | child_window(title="Type", auto_id="System.ItemTypeText", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Size'    (L1540, T475, R1660, B508)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit12', 'Edit16']
+   |    |    |    |    |    | child_window(title="Size", auto_id="System.Size", control_type="Edit")
+   |    |    |    |    |
+   |    |    |    |    | ListItem - 'filesToAnalyze'    (L757, T507, R1654, B540)
+   |    |    |    |    | ['filesToAnalyze2', 'ListItem5', 'filesToAnalyzeListItem']
+   |    |    |    |    | child_window(title="filesToAnalyze", auto_id="4", control_type="ListItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Image - ''    (L763, T507, R790, B540)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Image4', 'Image6']
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Name'    (L790, T507, R1144, B540)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit13', 'Edit17']
+   |    |    |    |    |    | child_window(title="Name", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Date modified'    (L1144, T507, R1360, B540)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit14', 'Edit18']
+   |    |    |    |    |    | child_window(title="Date modified", auto_id="System.DateModified", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Type'    (L1360, T507, R1540, B540)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit15', 'Edit19']
+   |    |    |    |    |    | child_window(title="Type", auto_id="System.ItemTypeText", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Size'    (L1540, T507, R1660, B540)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit16', 'Edit20']
+   |    |    |    |    |    | child_window(title="Size", auto_id="System.Size", control_type="Edit")
+   |    |    |    |    |
+   |    |    |    |    | ListItem - 'GitHub'    (L757, T539, R1654, B572)
+   |    |    |    |    | ['GitHubListItem', 'ListItem6', 'GitHub']
+   |    |    |    |    | child_window(title="GitHub", auto_id="5", control_type="ListItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Image - ''    (L763, T539, R790, B572)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Image5', 'Image7']
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Name'    (L790, T539, R1144, B572)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit17', 'Edit21']
+   |    |    |    |    |    | child_window(title="Name", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Date modified'    (L1144, T539, R1360, B572)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit18', 'Edit22']
+   |    |    |    |    |    | child_window(title="Date modified", auto_id="System.DateModified", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Type'    (L1360, T539, R1540, B572)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit19', 'Edit23']
+   |    |    |    |    |    | child_window(title="Type", auto_id="System.ItemTypeText", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Size'    (L1540, T539, R1660, B572)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit20', 'Edit24']
+   |    |    |    |    |    | child_window(title="Size", auto_id="System.Size", control_type="Edit")
+   |    |    |    |    |
+   |    |    |    |    | ListItem - 'P39-Breast-Cancer-Python-Code'    (L757, T571, R1654, B604)
+   |    |    |    |    | ['P39-Breast-Cancer-Python-CodeListItem', 'P39-Breast-Cancer-Python-Code', 'ListItem7']
+   |    |    |    |    | child_window(title="P39-Breast-Cancer-Python-Code", auto_id="6", control_type="ListItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Image - ''    (L763, T571, R790, B604)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Image6', 'Image8']
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Name'    (L790, T571, R1144, B604)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit21', 'Edit25']
+   |    |    |    |    |    | child_window(title="Name", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Date modified'    (L1144, T571, R1360, B604)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit22', 'Edit26']
+   |    |    |    |    |    | child_window(title="Date modified", auto_id="System.DateModified", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Type'    (L1360, T571, R1540, B604)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit23', 'Edit27']
+   |    |    |    |    |    | child_window(title="Type", auto_id="System.ItemTypeText", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Size'    (L1540, T571, R1660, B604)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit24', 'Edit28']
+   |    |    |    |    |    | child_window(title="Size", auto_id="System.Size", control_type="Edit")
+   |    |    |    |    |
+   |    |    |    |    | ListItem - 'Processing'    (L757, T603, R1654, B636)
+   |    |    |    |    | ['ProcessingListItem', 'Processing', 'ListItem8']
+   |    |    |    |    | child_window(title="Processing", auto_id="7", control_type="ListItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Image - ''    (L763, T603, R790, B636)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Image7', 'Image9']
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Name'    (L790, T603, R1144, B636)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit25', 'Edit29']
+   |    |    |    |    |    | child_window(title="Name", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Date modified'    (L1144, T603, R1360, B636)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit26', 'Edit30']
+   |    |    |    |    |    | child_window(title="Date modified", auto_id="System.DateModified", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Type'    (L1360, T603, R1540, B636)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit27', 'Edit31']
+   |    |    |    |    |    | child_window(title="Type", auto_id="System.ItemTypeText", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Size'    (L1540, T603, R1660, B636)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit28', 'Edit32']
+   |    |    |    |    |    | child_window(title="Size", auto_id="System.Size", control_type="Edit")
+   |    |    |    |    |
+   |    |    |    |    | ListItem - 'WindowsPowerShell'    (L757, T635, R1654, B668)
+   |    |    |    |    | ['WindowsPowerShell', 'WindowsPowerShellListItem', 'ListItem9']
+   |    |    |    |    | child_window(title="WindowsPowerShell", auto_id="8", control_type="ListItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Image - ''    (L763, T635, R790, B668)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Image8', 'Image10']
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Name'    (L790, T635, R1144, B668)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit29', 'Edit33']
+   |    |    |    |    |    | child_window(title="Name", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Date modified'    (L1144, T635, R1360, B668)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit30', 'Edit34']
+   |    |    |    |    |    | child_window(title="Date modified", auto_id="System.DateModified", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Type'    (L1360, T635, R1540, B668)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit31', 'Edit35']
+   |    |    |    |    |    | child_window(title="Type", auto_id="System.ItemTypeText", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Size'    (L1540, T635, R1660, B668)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit32', 'Edit36']
+   |    |    |    |    |    | child_window(title="Size", auto_id="System.Size", control_type="Edit")
+   |    |    |    |    |
+   |    |    |    |    | ListItem - 'readme[1].txt'    (L757, T667, R1654, B700)
+   |    |    |    |    | ['readme[1].txtListItem', 'readme[1].txt', 'ListItem10']
+   |    |    |    |    | child_window(title="readme[1].txt", auto_id="9", control_type="ListItem")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Image - ''    (L763, T667, R790, B700)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Image9', 'Image11']
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Name'    (L790, T667, R1144, B700)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit33', 'Edit37']
+   |    |    |    |    |    | child_window(title="Name", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Date modified'    (L1144, T667, R1360, B700)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit34', 'Edit38']
+   |    |    |    |    |    | child_window(title="Date modified", auto_id="System.DateModified", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Type'    (L1360, T667, R1540, B700)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit35', 'Edit39']
+   |    |    |    |    |    | child_window(title="Type", auto_id="System.ItemTypeText", control_type="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - 'Size'    (L1540, T667, R1660, B700)
+   |    |    |    |    |    | ['temp123.txt already exists.\r\nDo you want to replace it?Edit36', 'Edit40']
+   |    |    |    |    |    | child_window(title="Size", auto_id="System.Size", control_type="Edit")
+   |    |    |
+   |    |    | Static - 'File name:'    (L511, T714, R684, B747)
+   |    |    | ['Static2', 'File name:Static', 'File name:', 'File name:0', 'File name:1']
+   |    |    | child_window(title="File name:", auto_id="SaveDialogLabel", control_type="Text")
+   |    |    |
+   |    |    | ComboBox - 'File name:'    (L684, T714, R1426, B747)
+   |    |    | ['ComboBox', 'File name:2', 'File name:ComboBox', 'ComboBox0', 'ComboBox1']
+   |    |    | child_window(title="File name:", auto_id="FileNameControlHost", control_type="ComboBox")
+   |    |    |    |
+   |    |    |    | Edit - 'File name:'    (L687, T717, R1397, B744)
+   |    |    |    | ['File name:Edit', 'Edit41']
+   |    |    |    | child_window(title="File name:", auto_id="1001", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Button - 'Open'    (L1401, T715, R1425, B746)
+   |    |    |    | ['Open', 'Button21', 'OpenButton', 'Open0', 'Open1', 'OpenButton0', 'OpenButton1']
+   |    |    |    | child_window(title="Open", auto_id="DropDown", control_type="Button")
+   |    |    |
+   |    |    | Static - 'Save as type:'    (L511, T750, R684, B783)
+   |    |    | ['Static3', 'Save as type:', 'Save as type:Static', 'Save as type:0', 'Save as type:1', 'Save as type:Static0', 'Save as type:Static1']
+   |    |    | child_window(title="Save as type:", auto_id="SaveDialogLabel", control_type="Text")
+   |    |    |
+   |    |    | ComboBox - 'Save as type:'    (L684, T750, R1426, B783)
+   |    |    | ['ComboBox2', 'Save as type:ComboBox', 'Save as type:2']
+   |    |    | child_window(title="Save as type:", auto_id="FileTypeControlHost", control_type="ComboBox")
+   |    |    |    |
+   |    |    |    | Static - ''    (L3, T3, R713, B30)
+   |    |    |    | ['Static4']
+   |    |    |    |
+   |    |    |    | Button - 'Open'    (L1401, T751, R1425, B782)
+   |    |    |    | ['Open2', 'Button22', 'OpenButton2']
+   |    |    |    | child_window(title="Open", auto_id="DropDown", control_type="Button")
+   |    |    |
+   |    |    | TreeView - 'Save Fields'    (L0, T0, R0, B0)
+   |    |    | ['TreeView2', 'Save Fields', 'Save FieldsTreeView']
+   |    |    | child_window(title="Save Fields", auto_id="SaveDialogPreviewMetadataInner", control_type="Tree")
+   |    |    |
+   |    |    | TreeView - 'Application Controls'    (L0, T0, R0, B0)
+   |    |    | ['TreeView3', 'Application ControlsTreeView', 'Application Controls']
+   |    |    | child_window(title="Application Controls", auto_id="AppControlsModuleInner", control_type="Tree")
+   |    |
+   |    | Toolbar - ''    (L506, T835, R646, B867)
+   |    | ['Save as type:Toolbar', 'Toolbar2']
+   |    |    |
+   |    |    | Button - 'Hide Folders'    (L506, T835, R638, B867)
+   |    |    | ['Hide FoldersButton', 'Hide Folders', 'Button23']
+   |    |    | child_window(title="Hide Folders", control_type="Button")
+   |    |
+   |    | Static - 'Encoding:'    (L797, T835, R875, B860)
+   |    | ['Static5', 'Encoding:Static', 'Encoding:', 'Encoding:0', 'Encoding:1', 'Encoding:Static0', 'Encoding:Static1']
+   |    | child_window(title="Encoding:", control_type="Text")
+   |    |
+   |    | ComboBox - 'Encoding:'    (L883, T831, R1108, B864)
+   |    | ['ComboBox3', 'Encoding:ComboBox', 'Encoding:2']
+   |    | child_window(title="Encoding:", control_type="ComboBox")
+   |    |    |
+   |    |    | Static - 'Encoding:'    (L3, T3, R196, B30)
+   |    |    | ['Static6', 'Encoding:Static2', 'Encoding:3']
+   |    |    | child_window(title="Encoding:", control_type="Text")
+   |    |    |
+   |    |    | Button - 'Open'    (L1083, T832, R1107, B863)
+   |    |    | ['Open3', 'Button24', 'OpenButton3']
+   |    |    | child_window(title="Open", auto_id="DropDown", control_type="Button")
+   |    |
+   |    | Button - 'Save'    (L1126, T828, R1258, B867)
+   |    | ['Save', 'SaveButton', 'Button25']
+   |    | child_window(title="Save", auto_id="1", control_type="Button")
+   |    |
+   |    | Button - 'Cancel'    (L1276, T828, R1408, B867)
+   |    | ['CancelButton', 'Cancel', 'Button26']
+   |    | child_window(title="Cancel", auto_id="2", control_type="Button")
+   |    |
+   |    | Thumb - ''    (L1408, T859, R1434, B885)
+   |    | ['Thumb4', 'Encoding:Thumb', 'Encoding:Thumb0', 'Encoding:Thumb1']
+   |    |
+   |    | Pane - ''    (L496, T221, R1434, B280)
+   |    | ['Pane4']
+   |    | child_window(auto_id="40965", control_type="Pane")
+   |    |    |
+   |    |    | Pane - ''    (L496, T225, R617, B273)
+   |    |    | ['Pane5']
+   |    |    |    |
+   |    |    |    | Toolbar - 'Navigation buttons'    (L502, T228, R617, B273)
+   |    |    |    | ['Navigation buttonsToolbar', 'Navigation buttons', 'Toolbar3']
+   |    |    |    | child_window(title="Navigation buttons", control_type="ToolBar")
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Back (Alt + Left Arrow)'    (L502, T228, R547, B273)
+   |    |    |    |    | ['Back (Alt + Left Arrow)', 'Back (Alt + Left Arrow)Button', 'Button27']
+   |    |    |    |    | child_window(title="Back (Alt + Left Arrow)", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Forward (Alt + Right Arrow)'    (L547, T228, R592, B273)
+   |    |    |    |    | ['Forward (Alt + Right Arrow)Button', 'Forward (Alt + Right Arrow)', 'Button28']
+   |    |    |    |    | child_window(title="Forward (Alt + Right Arrow)", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Recent locations'    (L592, T228, R614, B273)
+   |    |    |    |    | ['Recent locations', 'Recent locationsButton', 'Button29']
+   |    |    |    |    | child_window(title="Recent locations", control_type="Button")
+   |    |    |
+   |    |    | Pane - ''    (L617, T227, R653, B271)
+   |    |    | ['Pane6']
+   |    |    |    |
+   |    |    |    | Toolbar - 'Up band toolbar'    (L617, T233, R653, B277)
+   |    |    |    | ['Up band toolbar', 'Toolbar4', 'Up band toolbarToolbar']
+   |    |    |    | child_window(title="Up band toolbar", control_type="ToolBar")
+   |    |    |    |    |
+   |    |    |    |    | Button - 'Up to "This PC" (Alt + Up Arrow)'    (L617, T233, R653, B269)
+   |    |    |    |    | ['Up to "This PC" (Alt + Up Arrow)Button', 'Up to "This PC" (Alt + Up Arrow)', 'Button30']
+   |    |    |    |    | child_window(title="Up to "This PC" (Alt + Up Arrow)", control_type="Button")
+   |    |    |
+   |    |    | Pane - ''    (L653, T221, R1107, B277)
+   |    |    | ['Pane7']
+   |    |    | child_window(auto_id="41477", control_type="Pane")
+   |    |    |    |
+   |    |    |    | Progress - ''    (L655, T226, R1105, B273)
+   |    |    |    | ['Progress']
+   |    |    |    |    |
+   |    |    |    |    | Pane - ''    (L655, T226, R1005, B273)
+   |    |    |    |    | ['Pane8']
+   |    |    |    |    |    |
+   |    |    |    |    |    | Toolbar - 'Address: Documents'    (L655, T226, R1005, B273)
+   |    |    |    |    |    | ['Address: DocumentsToolbar', 'Address: Documents', 'Toolbar5']
+   |    |    |    |    |    | child_window(title="Address: Documents", auto_id="1001", control_type="ToolBar")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | SplitButton - 'All locations'    (L655, T226, R708, B272)
+   |    |    |    |    |    |    | ['All locationsSplitButton', 'SplitButton6', 'All locations']
+   |    |    |    |    |    |    | child_window(title="All locations", control_type="SplitButton")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | SplitButton - 'This PC'    (L708, T226, R798, B272)
+   |    |    |    |    |    |    | ['This PCSplitButton', 'SplitButton7', 'This PC2']
+   |    |    |    |    |    |    | child_window(title="This PC", control_type="SplitButton")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | MenuItem - 'Documents'    (L798, T226, R897, B272)
+   |    |    |    |    |    |    | ['MenuItem', 'DocumentsMenuItem', 'Documents2', 'MenuItem0', 'MenuItem1']
+   |    |    |    |    |    |    | child_window(title="Documents", control_type="MenuItem")
+   |    |    |    |    |
+   |    |    |    |    | Toolbar - 'Address band toolbar'    (L1005, T226, R1105, B273)
+   |    |    |    |    | ['Address band toolbarToolbar', 'Toolbar6', 'Address band toolbar']
+   |    |    |    |    | child_window(title="Address band toolbar", control_type="ToolBar")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Previous Locations'    (L1005, T226, R1055, B273)
+   |    |    |    |    |    | ['Previous LocationsButton', 'Button31', 'Previous Locations']
+   |    |    |    |    |    | child_window(title="Previous Locations", control_type="Button")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Refresh "Documents" (F5)'    (L1055, T226, R1105, B273)
+   |    |    |    |    |    | ['Button32', 'Refresh "Documents" (F5)Button', 'Refresh "Documents" (F5)']
+   |    |    |    |    |    | child_window(title="Refresh "Documents" (F5)", control_type="Button")
+   |    |    |
+   |    |    | Pane - ''    (L1111, T248, R1117, B249)
+   |    |    | ['Pane9']
+   |    |    |
+   |    |    | Pane - ''    (L1117, T222, R1423, B275)
+   |    |    | ['Pane10']
+   |    |    |    |
+   |    |    |    | Edit - 'SearchEditBox'    (L1117, T225, R1423, B274)
+   |    |    |    | ['Edit42']
+   |    |    |    | child_window(title="SearchEditBox", auto_id="SearchEditBox", control_type="Edit")
+   |    |    |
+   |    |    | Pane - ''    (L1427, T248, R1434, B249)
+   |    |    | ['Pane11']
+   |    |
+   |    | TitleBar - ''    (L520, T179, R1434, B221)
+   |    | ['TitleBar2']
+   |    |    |
+   |    |    | Menu - 'System'    (L496, T187, R529, B220)
+   |    |    | ['System', 'Menu', 'SystemMenu', 'System0', 'System1', 'Menu0', 'Menu1', 'SystemMenu0', 'SystemMenu1']
+   |    |    | child_window(title="System", auto_id="MenuBar", control_type="MenuBar")
+   |    |    |    |
+   |    |    |    | MenuItem - 'System'    (L496, T187, R529, B220)
+   |    |    |    | ['SystemMenuItem', 'System2', 'MenuItem2', 'SystemMenuItem0', 'SystemMenuItem1']
+   |    |    |    | child_window(title="System", control_type="MenuItem")
+   |    |    |
+   |    |    | Button - 'Close'    (L1383, T177, R1435, B221)
+   |    |    | ['Button33', 'CloseButton', 'Close', 'CloseButton0', 'CloseButton1', 'Close0', 'Close1']
+   |    |    | child_window(title="Close", control_type="Button")
+   |
+   | Edit - 'Text Editor'    (L484, T357, R1403, B936)
+   | ['temp123.txt already exists.\r\nDo you want to replace it?Edit37', 'Edit43']
+   | child_window(title="Text Editor", auto_id="15", control_type="Edit")
+   |    |
+   |    | ScrollBar - 'Vertical'    (L1377, T357, R1403, B910)
+   |    | ['ScrollBar4', 'VerticalScrollBar2', 'Vertical2']
+   |    | child_window(title="Vertical", auto_id="NonClientVerticalScrollBar", control_type="ScrollBar")
+   |    |    |
+   |    |    | Button - 'Line up'    (L1377, T357, R1403, B383)
+   |    |    | ['Line upButton3', 'Line up3', 'Button34']
+   |    |    | child_window(title="Line up", auto_id="UpButton", control_type="Button")
+   |    |    |
+   |    |    | Button - 'Line down'    (L1377, T884, R1403, B910)
+   |    |    | ['Button35', 'Line down3', 'Line downButton3']
+   |    |    | child_window(title="Line down", auto_id="DownButton", control_type="Button")
+   |    |
+   |    | ScrollBar - 'Horizontal'    (L484, T910, R1377, B936)
+   |    | ['ScrollBar5', 'HorizontalScrollBar', 'Horizontal']
+   |    | child_window(title="Horizontal", auto_id="NonClientHorizontalScrollBar", control_type="ScrollBar")
+   |    |    |
+   |    |    | Button - 'Column left'    (L484, T910, R510, B936)
+   |    |    | ['Button36', 'Column left2', 'Column leftButton2']
+   |    |    | child_window(title="Column left", auto_id="UpButton", control_type="Button")
+   |    |    |
+   |    |    | Button - 'Column right'    (L1351, T910, R1377, B936)
+   |    |    | ['Column rightButton2', 'Column right2', 'Button37']
+   |    |    | child_window(title="Column right", auto_id="DownButton", control_type="Button")
+   |    |
+   |    | Thumb - ''    (L1377, T910, R1403, B936)
+   |    | ['Thumb5', 'Encoding:Thumb2']
+   |
+   | StatusBar - 'Status Bar'    (L484, T936, R1403, B972)
+   | ['StatusBar', 'Status BarStatusBar', 'Status Bar']
+   | child_window(title="Status Bar", auto_id="1025", control_type="StatusBar")
+   |    |
+   |    | Static - ''    (L484, T938, R758, B972)
+   |    | ['Static7', 'Save as type:Static2']
+   |    |
+   |    | Static - '  Ln 1, Col 23'    (L760, T938, R968, B972)
+   |    | ['Static8', '  Ln 1, Col 23', '  Ln 1, Col 23Static']
+   |    | child_window(title="  Ln 1, Col 23", control_type="Text")
+   |    |
+   |    | Static - ' 100%'    (L970, T938, R1043, B972)
+   |    | [' 100%', 'Static9', ' 100%Static']
+   |    | child_window(title=" 100%", control_type="Text")
+   |    |
+   |    | Static - ' Windows (CRLF)'    (L1045, T938, R1223, B972)
+   |    | [' Windows (CRLF)', 'Static10', ' Windows (CRLF)Static']
+   |    | child_window(title=" Windows (CRLF)", control_type="Text")
+   |    |
+   |    | Static - ' UTF-8'    (L1225, T938, R1379, B972)
+   |    | [' UTF-8Static', 'Static11', ' UTF-8']
+   |    | child_window(title=" UTF-8", control_type="Text")
+   |
+   | TitleBar - ''    (L508, T285, R1403, B327)
+   | ['TitleBar3']
+   |    |
+   |    | Menu - 'System'    (L484, T293, R517, B326)
+   |    | ['System3', 'Menu2', 'SystemMenu2']
    |    | child_window(title="System", auto_id="MenuBar", control_type="MenuBar")
    |    |    |
-   |    |    | MenuItem - 'System'    (L595, T237, R628, B270)
-   |    |    | ['MenuItem', 'SystemMenuItem', 'System2']
+   |    |    | MenuItem - 'System'    (L484, T293, R517, B326)
+   |    |    | ['SystemMenuItem2', 'System4', 'MenuItem3']
    |    |    | child_window(title="System", control_type="MenuItem")
    |    |
-   |    | Button - 'Minimize'    (L1121, T227, R1192, B263)
-   |    | ['MinimizeButton', 'Button3', 'Minimize']
+   |    | Button - 'Minimize'    (L1192, T283, R1263, B327)
+   |    | ['Minimize', 'MinimizeButton', 'Button38']
    |    | child_window(title="Minimize", control_type="Button")
    |    |
-   |    | Button - 'Maximize'    (L1192, T227, R1262, B263)
-   |    | ['Button4', 'MaximizeButton', 'Maximize']
+   |    | Button - 'Maximize'    (L1263, T283, R1333, B327)
+   |    | ['MaximizeButton', 'Maximize', 'Button39']
    |    | child_window(title="Maximize", control_type="Button")
    |    |
-   |    | Button - 'Close'    (L1262, T227, R1333, B263)
-   |    | ['Button5', 'CloseButton', 'Close']
+   |    | Button - 'Close'    (L1333, T283, R1404, B327)
+   |    | ['Button40', 'CloseButton2', 'Close2']
    |    | child_window(title="Close", control_type="Button")
+   |
+   | Menu - 'Application'    (L484, T327, R1403, B356)
+   | ['Application', 'Menu3', 'ApplicationMenu']
+   | child_window(title="Application", auto_id="MenuBar", control_type="MenuBar")
+   |    |
+   |    | MenuItem - 'File'    (L484, T327, R524, B356)
+   |    | ['MenuItem4', 'FileMenuItem', 'File']
+   |    | child_window(title="File", control_type="MenuItem")
+   |    |
+   |    | MenuItem - 'Edit'    (L524, T327, R568, B356)
+   |    | ['MenuItem5', 'Edit44', 'EditMenuItem']
+   |    | child_window(title="Edit", control_type="MenuItem")
+   |    |
+   |    | MenuItem - 'Format'    (L568, T327, R639, B356)
+   |    | ['MenuItem6', 'Format', 'FormatMenuItem']
+   |    | child_window(title="Format", control_type="MenuItem")
+   |    |
+   |    | MenuItem - 'View'    (L639, T327, R690, B356)
+   |    | ['ViewMenuItem', 'MenuItem7', 'View']
+   |    | child_window(title="View", control_type="MenuItem")
+   |    |
+   |    | MenuItem - 'Help'    (L690, T327, R741, B356)
+   |    | ['HelpMenuItem', 'MenuItem8', 'Help']
+   |    | child_window(title="Help", control_type="MenuItem")
 
 Process finished with exit code 0

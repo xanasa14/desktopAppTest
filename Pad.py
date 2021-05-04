@@ -4,7 +4,7 @@ app = Application(backend="uia").start("notepad.exe").connect(title='Untitled - 
 #it gets capitalized and removed all extra characters non alpha
 
 textEditor = app.UntitledNotepad.child_window(title="Text Editor", auto_id="15", control_type="Edit").wrapper_object()
-textEditor.type_keys("Holiii my name is xavi", with_spaces= True)
+textEditor.type_keys("Hey my name is xavi", with_spaces= True)
 
 fileMenu = app.UntitledNotepad.child_window(title='File', control_type="MenuItem").wrapper_object()
 fileMenu.click_input()
@@ -22,3 +22,14 @@ searching.type_keys("temp123.txt")
 Sub.Save.click()
 #Sub.FileNameCombo.type_keys("temp_12345.txt")
 #Sub.Save.click()
+
+
+#confirmation if there is a file with that name already in this location
+try:
+    confirm = app.top_window()
+    #confirm.print_control_identifiers()
+    confirm.child_window(title="Yes", auto_id="CommandButton_6", control_type="Button").click_input()
+except:
+    print("There is no file with that name already saved")
+finally:
+    print('Done.')

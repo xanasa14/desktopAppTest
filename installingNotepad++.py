@@ -24,8 +24,8 @@ nextPage = app.Dialogs.child_window(title="Next >", auto_id="1", control_type="B
 nextPage.click_input()
 
 #AGREE
-agreement = app.top_window
-app.Dialogs.Agreement.child_window.print_control_identifiers()
+agreement = app.window()
+app.Dialogs.Agreement.print_control_identifiers()
 
 #agree = app.Agreement.child_window(title="Next >", auto_id="1", control_type="Button")
 #nextPage.click_input()
