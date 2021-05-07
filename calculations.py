@@ -5,7 +5,7 @@ from pywinauto import Desktop, Application
 app = Application(backend='uia').start('calc.exe')
 
 dialog = Desktop(backend='uia').Calculator
-#dialog.print_control_identifiers(depth=5)
+dialog.print_control_identifiers(depth=1)
 #max_calc = dialog.child_window(title="Maximize Calculator", auto_id='Maximize', control_type="Button")
 #max_calc.click()
 
